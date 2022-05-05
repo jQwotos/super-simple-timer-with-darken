@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hour_picker" type="id" />
+    <item name="minute_picker" type="id" />
+    <item name="reset_button" type="id" />
+    <item name="start_button" type="id" />
+    <item name="stop_button" type="id" />
+    <item name="second_picker" type="id" />
+    <item name="main_background" type="id" />
+    <item name="black_screen" type="id" />
+    <item name="blank_screen_constaint_layout" type="id" />
+    <item name="stop_alarm_button" type="id" />
+    <item name="darken_button" type="id" />
+    <item name="lighten_button" type="id" />
+</resources>
