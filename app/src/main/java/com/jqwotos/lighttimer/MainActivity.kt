@@ -123,6 +123,8 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         resetButton.setOnClickListener {
             setPickerEnabled(true)
 
+            countDownTimer.cancel()
+
             hourPicker.value = 0
             minutePicker.value = 0
             secondPicker.value = 0
