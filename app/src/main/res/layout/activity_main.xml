@@ -26,6 +26,8 @@
         android:visibility="gone" />
 
     <LinearLayout
+        android:scaleY="2"
+        android:scaleX="2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -45,6 +47,7 @@
 
             <NumberPicker
                 android:id="@id/hour_picker"
+                android:descendantFocusability="blocksDescendants"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -64,7 +67,8 @@
 
             <NumberPicker
                 android:id="@id/minute_picker"
-                android:layout_width="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp" />
@@ -84,6 +88,7 @@
 
             <NumberPicker
                 android:id="@id/second_picker"
+                android:descendantFocusability="blocksDescendants"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"

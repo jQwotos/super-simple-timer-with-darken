@@ -6,7 +6,7 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2425" />
         <entry key="app/src/main/res/drawable/no_corners.xml" value="0.2425" />
         <entry key="app/src/main/res/layout/activity_blank_screen.xml" value="0.12234042553191489" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.6625194401244168" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_blank_screen.xml" value="0.1" />
       </map>
     </option>

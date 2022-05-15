@@ -116,14 +116,18 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
         }
 
         stopButton.setOnClickListener {
-            countDownTimer.cancel()
+            if(this::countDownTimer.isInitialized) {
+                countDownTimer.cancel()
+            }
             setPickerEnabled(true)
         }
 
         resetButton.setOnClickListener {
             setPickerEnabled(true)
 
-            countDownTimer.cancel()
+            if (this::countDownTimer.isInitialized) {
+                countDownTimer.cancel()
+            }
 
             hourPicker.value = 0
             minutePicker.value = 0
